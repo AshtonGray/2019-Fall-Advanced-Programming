@@ -1,0 +1,8 @@
+Using a dataset of approximately 10,000 songs containing fields such as title, artist, song, duration, and track ID
+The data is managed in classses and objects, containing variables for each of these different attributes.
+
+Code:
+- We can do a linear search that can search for a song based on either the song title or artist. This returns the number of songs that satisf the search.
+- QuickSort is used to sort the song database based on song title, stored in an array.
+- A function to buld a balanced binary search tree to sort the database based on song title, with a height of at most 24
+- A search functinon to search for song title on the BST
