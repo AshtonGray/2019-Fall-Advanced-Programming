@@ -1,0 +1,7 @@
+Using a database of 10,000 songs that contain attributes such as: title, artist, song duration, track ID, and now Collaboative Artists
+This code can:
+- Build an artist graph, where the vertices are objects that contain information of an artist.
+- A search function to search for basic information of an artist based on their name. This returns a tuple of information
+- A function that returns a list of two-hop neighbors of a given artist (an artist that does not write songs with the other, but has written songs with their collaborative artists)
+- A function that finds the one most potential artist they would work with next, used from the number of two-hop neighbors
+- A function that can compute the shortest path from one artist to all other artists
